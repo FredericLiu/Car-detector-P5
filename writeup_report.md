@@ -134,7 +134,7 @@ Ultimately I searched on 4 scales using YCrCb 3-channel HOG features plus spatia
 ![example2](https://github.com/FredericLiu/Car-detector-P5/blob/master/examples/example_test2.png)
 ![example3](https://github.com/FredericLiu/Car-detector-P5/blob/master/examples/example_test3.png)
 
-Note; For these single image tests, I didn't include the heatmap threshold over multi frames. but for video processing, heatmap threshold over multi frames is necesserary.
+Note:For these single image tests, I didn't include the heatmap threshold over multi frames. but for video processing, heatmap threshold over multi frames is necesserary.
 ---
 
 ### Video Implementation
@@ -176,7 +176,7 @@ Here's an example indicating the situation that false postive are failed to be f
 
 ![false_detection](https://github.com/FredericLiu/Car-detector-P5/blob/master/examples/false_detection.png)
 
-From the picture, there are too false positive at the bottom of the frame, but only one is filtered out.
+From the picture, there are two false positive at the bottom of the frame, but only one is filtered out.
 ---
 
 ### Discussion
